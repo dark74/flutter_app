@@ -10,6 +10,7 @@ class MainApp extends StatelessWidget {
 
     return new MaterialApp(
       title: "Welcome to Flutter",
+      theme: new ThemeData(primaryColor: Colors.deepPurple),
       home: new Scaffold(
         appBar: new AppBar(
           title: new Text(
